@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* .container {
+  max-width: 150rem;
+  margin: 0 auto;
+  width: 95vw;
+} */
+a {
+  display: inline-block;
+  text-decoration: none;
+  /* color: black; */
+}
+
+.logo {
+  width: 5rem;
+}
+/* navbar */
+.nav {
+  display: flex;
+  align-items: center;
+  max-width: 100rem;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+  color: white;
+}
+.nav .first-link {
+  margin-right: 3rem;
+}
+.nav a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  margin-top: -10rem;
+}
+.hero > h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #4d4d4d;
+  font-family: "Bebas Neue";
+  line-height: 1;
+  letter-spacing: 0.5rem;
+}
+.head--text--mount {
+  background: linear-gradient(to bottom, #414f6b, #1a202c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* history section */
+.history {
+  background-image: url("./img/peak.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* padding: 10rem; */
+}
+.number {
+  font-size: 10rem;
+  color: #1a202c;
+  opacity: 0.7;
+  font-family: "oswald";
+}
+
+h2 {
+  font-size: 3rem;
+  color: #414f6b;
+  font-family: "oswald";
+}
